@@ -4,20 +4,20 @@ English-only version for browsing metro lines and station locations in major Chi
 
 ## Live URLs
 
-- Home: https://liteng16.github.io/metro-cities-map2/
-- Beijing: https://liteng16.github.io/metro-cities-map2/beijing/
-- Shanghai: https://liteng16.github.io/metro-cities-map2/shanghai/
-- Guangzhou: https://liteng16.github.io/metro-cities-map2/guangzhou/
-- Shenzhen: https://liteng16.github.io/metro-cities-map2/shenzhen/
-- Chengdu: https://liteng16.github.io/metro-cities-map2/chengdu/
-- Hangzhou: https://liteng16.github.io/metro-cities-map2/hangzhou/
-- Nanjing: https://liteng16.github.io/metro-cities-map2/nanjing/
-- Wuhan: https://liteng16.github.io/metro-cities-map2/wuhan/
-- Chongqing: https://liteng16.github.io/metro-cities-map2/chongqing/
-- Xi'an: https://liteng16.github.io/metro-cities-map2/xian/
-- Tianjin: https://liteng16.github.io/metro-cities-map2/tianjin/
-- Shijiazhuang: https://liteng16.github.io/metro-cities-map2/shijiazhuang/
-- Hefei: https://liteng16.github.io/metro-cities-map2/hefei/
+- Home: https://liteng16.github.io/metro-cities-map-english/
+- Beijing: https://liteng16.github.io/metro-cities-map-english/beijing/
+- Shanghai: https://liteng16.github.io/metro-cities-map-english/shanghai/
+- Guangzhou: https://liteng16.github.io/metro-cities-map-english/guangzhou/
+- Shenzhen: https://liteng16.github.io/metro-cities-map-english/shenzhen/
+- Chengdu: https://liteng16.github.io/metro-cities-map-english/chengdu/
+- Hangzhou: https://liteng16.github.io/metro-cities-map-english/hangzhou/
+- Nanjing: https://liteng16.github.io/metro-cities-map-english/nanjing/
+- Wuhan: https://liteng16.github.io/metro-cities-map-english/wuhan/
+- Chongqing: https://liteng16.github.io/metro-cities-map-english/chongqing/
+- Xi'an: https://liteng16.github.io/metro-cities-map-english/xian/
+- Tianjin: https://liteng16.github.io/metro-cities-map-english/tianjin/
+- Shijiazhuang: https://liteng16.github.io/metro-cities-map-english/shijiazhuang/
+- Hefei: https://liteng16.github.io/metro-cities-map-english/hefei/
 
 ## Included Cities
 
