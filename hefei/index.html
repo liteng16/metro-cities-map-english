@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hefei Metro Map</title>
+    <link rel="stylesheet" href="../vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="home-view" class="home-view">
+        <header class="home-header">
+          <div>
+            <h1>Metro Lines and Stations in Major Chinese Cities</h1>
+            <p>Choose a province or search for a city to explore its metro lines and station locations on an interactive map.</p>
+          </div>
+          <div class="home-controls">
+            <label class="field">
+              <span>Province</span>
+              <select id="province-filter"></select>
+            </label>
+            <label class="field">
+              <span>Search city</span>
+              <input id="city-search" type="search" placeholder="Beijing" autocomplete="off" />
+            </label>
+          </div>
+        </header>
+
+        <section id="city-grid" class="city-grid" aria-label="Metro city list"></section>
+      </section>
+
+      <section id="map-view" class="map-view" hidden>
+        <div id="map"></div>
+        <header id="map-topbar" class="map-topbar">
+          <button id="back-home" type="button">Cities</button>
+          <div>
+            <h2 id="city-title"></h2>
+            <p id="city-subtitle"></p>
+          </div>
+          <div class="map-tools">
+            <label class="field compact">
+              <span>Basemap</span>
+              <select id="style-select">
+                <option value="osm-muted" selected>OSM muted</option>
+                <option value="osm-colorful">OSM colorful</option>
+                <option value="google-road">Google road</option>
+                <option value="google-satellite">Google satellite</option>
+              </select>
+            </label>
+            <label class="field compact">
+              <span>Station</span>
+              <input id="station-search" type="search" placeholder="Station name" autocomplete="off" />
+            </label>
+            <button id="toggle-stations" type="button" aria-pressed="true">Stations</button>
+            <button id="toggle-labels" type="button" aria-pressed="true">Labels</button>
+            <button id="toggle-lines" type="button" aria-pressed="true">Lines</button>
+            <button id="fit-map" type="button">Fit</button>
+          </div>
+          <button id="collapse-topbar" class="collapse-tab top-collapse" type="button" aria-expanded="true" aria-label="Collapse tools">⌃</button>
+        </header>
+        <aside id="line-legend" class="legend" aria-label="Line filters">
+          <button id="collapse-legend" class="collapse-tab bottom-collapse" type="button" aria-expanded="true" aria-label="Collapse line filters">⌄</button>
+          <div class="legend-title">Lines</div>
+          <div id="line-filters" class="line-filters"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="../vendor/leaflet/leaflet.js"></script>
+    <script src="../data.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
